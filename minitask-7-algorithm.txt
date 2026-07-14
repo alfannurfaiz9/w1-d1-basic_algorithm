@@ -2,7 +2,7 @@ FUNCTION hitungTotalPembayaran
     DECLARE totalPenggunaan, hargaPerKwh, jumlahTagihan : INTEGER
 BEGIN
     INPUT(totalPenggunaan)
-    IF totalPenggunaan > 100
+    IF totalPenggunaan >= 100
         IF totalPenggunaan <= 200
             totalHarga <- 3000
         ELSE
