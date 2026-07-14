@@ -1,0 +1,16 @@
+FUNCTION hitungTotalPembayaran
+    DECLARE totalPenggunaan, hargaPerKwh, jumlahTagihan : INTEGER
+BEGIN
+    INPUT(totalPenggunaan)
+    IF totalPenggunaan > 100
+        IF totalPenggunaan <= 200
+            totalHarga <- 3000
+        ELSE
+            totalHarga <- 5000
+    ELSE 
+        hargaPerKwh <- 2000 
+    END IF
+
+    jumlahTagihan <- totalPenggunaan * hargaPerKwh
+    OUTPUT("Nominal yang harus dibayarkan =", jumlahTagihan)
+END
