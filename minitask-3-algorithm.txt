@@ -2,6 +2,6 @@ Goal: Menentukan variabel x bilangan ganjil atau genap
 
 1. Mulai
 2. Ambil nilai di dalam variabel x
-3. Jika x / 2 = bilangan bulat, maka x adalah bilangan genap
+3. Jika x mod 2 = 0, maka x adalah bilangan genap
 4. Jika tidak maka x adalah bilangan ganjil
 5. Selesai
