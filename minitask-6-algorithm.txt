@@ -1,0 +1,17 @@
+FUNCTION hitungTotalDiskon
+    DECLARE pembelian, diskon, totalHarga : INT
+BEGIN
+    INPUT(pembelian)
+    IF pembelian >= 500.000
+        IF pembelian <= 1.000.000
+            diskon <- 5%
+        ELSE 
+            diskon <- 10%
+    ELSE 
+        diskon <- 0
+    END IF
+
+    totalHarga <- pembelian - (pembelian * diskon)
+    OUTPUT("totalHarga =", totalHarga)
+END
+
