@@ -1,3 +1,6 @@
+Input: Jari jari lingkaran
+Goal: Menghitung luas dan keliling lingkaran
+
 1. Mulai
 2. Ambil nilai jari jari lingkaran sebagai "r"
 3. Jika r mod 7 = 0, phi = 22/7
