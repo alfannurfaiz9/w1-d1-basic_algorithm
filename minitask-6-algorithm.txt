@@ -2,7 +2,7 @@ FUNCTION hitungTotalDiskon
     DECLARE pembelian, totalHarga : INTEGER
             diskon : FLOAT
 BEGIN
-    INPUT(pembelian)
+    INPUT(pembelian) 
     IF pembelian >= 500.000 
         IF pembelian <= 1.000.000 
             diskon <- 0.05
