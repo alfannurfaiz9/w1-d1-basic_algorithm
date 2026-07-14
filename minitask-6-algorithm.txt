@@ -1,5 +1,5 @@
 FUNCTION hitungTotalDiskon
-    DECLARE pembelian, diskon, totalHarga : INT
+    DECLARE pembelian, diskon, totalHarga : INTEGER
 BEGIN
     INPUT(pembelian)
     IF pembelian >= 500.000
