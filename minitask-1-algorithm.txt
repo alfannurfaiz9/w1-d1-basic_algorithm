@@ -1,0 +1,8 @@
+1. Mulai
+2. Siapkan tiga gelas (A, B, C)
+3. Tuangkan teh ke gelas pertama (A)
+4. Tuangkan kopi ke gelas kedua (B)
+5. Pindahkan teh ke gelas ketiga (C)
+6. Pindahkan kopi ke gelas pertama (A)
+7. Ambil teh di gelas ketiga (C) dan pindahkan teh ke gelas kedua (B)
+8. Selesai
