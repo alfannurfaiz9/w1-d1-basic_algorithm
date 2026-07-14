@@ -1,3 +1,6 @@
+Input: Gelas A berisi teh, Gelas B berisi kopi
+Goal: Memindahkan isi gelas A ke gelas B dan sebaliknya
+
 1. Mulai
 2. Siapkan gelas baru sebagai penampung (C)
 3. Pindahkan isi gelas A ke gelas C
