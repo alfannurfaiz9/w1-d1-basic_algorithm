@@ -1,7 +1,7 @@
-Goal: Menghitung luas & keliling lingkaran
-
 1. Mulai
-2. Ambil nilai jari jari lingkaran
-3. Untuk mencari luas, jika jari jari bisa dibagi 7 maka rumusnya 22/7 x jari jari x jari jari, Jika jari jari tidak bisa dibagi 7 maka rumusnya 3,14 x jari jari x jari jari
-4. Untuk mencari keliling, jika jari jari bisa dibagi 7 maka rumusnya 2 x 22/7 x jari jari, Jika jari jari tidak bisa dibagi 7 maka rumusnya 2 x 3,14 x jari jari
-5. Selesai
+2. Ambil nilai jari jari lingkaran sebagai "r"
+3. Jika r mod 7 = 0, phi = 22/7
+4. Jika tidak maka phi = 3,14
+5. Luas lingkaran = phi * r * r
+6. Keliling lingkaran = 2 * phi * r
+7. Selesai
